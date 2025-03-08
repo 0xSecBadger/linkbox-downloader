@@ -1,0 +1,25 @@
+{
+  "name": "linkbox-downloader",
+  "version": "1.0.0",
+  "description": "A Node.js script to download files from Linkbox file sharing service",
+  "main": "linkbox-downloader.js",
+  "type": "module",
+  "scripts": {
+    "start": "node linkbox-downloader.js"
+  },
+  "keywords": [
+    "linkbox",
+    "downloader",
+    "puppeteer",
+    "file-download"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "puppeteer": "^22.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
